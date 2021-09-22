@@ -13,6 +13,7 @@ cd wdio7-appium-applitools
 ```
 
 3. Replace capabilities in wdio.conf.js: 
+
     a. deviceName
 
     b. platformVersion
