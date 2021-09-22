@@ -1,15 +1,22 @@
-# Applitools Tutorial - WebdriverIO 6 Ultrafast Grid
+# Applitools Tutorial - WebdriverIO 7 Native Demo
 
-Get started with Applitools visual testing with this example of using the Ultrafast Grid with the Applitools WebdriverIO 6 SDK.
+## Usage Instructions:
 
-Learn more about how to install and start this project with our [WebdriverIO 6 tutorial](https://applitools.com/tutorials/webdriverio6.html)!
+1. Clone the repo. 
+```git clone https://github.com/valandi/wdio7-appium-applitools.git```
 
-<https://applitools.com/tutorials/webdriverio6.html>
+2. Change directory into test directory. 
+```cd wdio7-appium-applitools```
 
-## More Information
+3. Replace capabilities in wdio.conf.js: 
+    a. deviceName
+    b. platformVersion
+    c. app
 
-Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [Ultrafast Test Cloud](https://info.applitools.com/ucY78) at [applitools.com](https://info.applitools.com/ucY76).
+4. Install depedencies.
+```npm install```
 
-More about the Eyes WebdriverIO 6 SDK:
-* https://www.npmjs.com/package/@applitools/eyes-webdriverio
-# wdio7-appium-applitools
+5. Run the test: 
+```APPLITOOLS_API_KEY="[Your API Key]" npm test```
+
+
